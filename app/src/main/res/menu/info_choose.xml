@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item_collect"
+         android:title="@string/action_collect" 
+         android:icon="@drawable/ofm_collect_icon"
+         android:showAsAction="ifRoom">     
+    </item>
+    
+
+</menu>

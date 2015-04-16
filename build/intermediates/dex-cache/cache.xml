@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/apple/AndroidstudioProjects/FindJob/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-6c5933aa9035b00d8063f98f496e22d62e3cad37.jar" />
+    </item>
+    <item
+        jar="/Users/apple/AndroidstudioProjects/FindJob/app/libs/simple-side-drawer2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5c03f3a39e0eb9ba2f74681d63093341ca9f3e55">
+        <dex dex="/Users/apple/AndroidstudioProjects/FindJob/app/build/intermediates/pre-dexed/debug/simple-side-drawer2-793d804ca1c4ed06c94f10d0962296b5507c9ee0.jar" />
+    </item>
+
+</items>

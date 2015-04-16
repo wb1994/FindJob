@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wechatsample.MainActivity" >
+    <item
+        android:id="@+id/action_plus"
+        android:actionProviderClass="com.example.xyzp.PlusActionProvider"
+        android:icon="@drawable/actionbar_add_icon"
+        android:title="@string/action_plus"/>
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/actionbar_add_icon"
+        android:title="@string/action_more" android:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/ofm_collect_icon"
+        android:title="@string/action_collect"/>
+
+
+
+    </menu>

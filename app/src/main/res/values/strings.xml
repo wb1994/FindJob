@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">校园招聘</string>
+ 
+    <string name="action_search">搜索</string>
+    <string name="action_plus">功能</string>
+    <string name="action_more">更多分类</string>
+    <string name="action_collect">收藏</string>
+
+    
+      <string name="today_account">今日活动</string>
+      <string name="no_diary">还没有记录，来写点什么吧</string>
+       <string name="type_del">删除</string>
+   
+
+
+</resources>

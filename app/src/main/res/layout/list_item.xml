@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ofm_feedback_icon" />
+
+    <TextView
+        android:id="@+id/tv_com_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:textSize="17dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_short_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_com_name"
+        android:layout_below="@+id/tv_com_name"
+        android:maxLength="50"
+        android:textColor="@android:color/holo_blue_dark"
+        android:singleLine="false"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_date_meet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:maxLength="10"
+        android:text="TextView" />
+
+</RelativeLayout>
